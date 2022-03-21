@@ -1,0 +1,21 @@
+<div class="container-fluid page">
+    <div class="page_box p-3 mt-2"> </div>
+    <div class="page_content shadow p-3 position-relative">
+
+
+<div class="container mt-5 pt-5"  >
+    <h1 class="text-center text-dark mb-5">Login Here</h1>
+
+<form (ngSubmit)="onLogin()" class="text-center">
+
+    <div class="form-group">
+        <input type="text" class="form-control" name="x"  placeholder="Username" [(ngModel)]="x">
+      </div><br>
+      <div class="form-group">
+        <input type="password" class="form-control" name="y"  placeholder="Password" [(ngModel)]="y">
+      </div><br>
+    <button type="submit" class="btn btn-primary" (click)=" onLogin()">Login</button>
+</form> 
+</div>
+</div>
+</div>  

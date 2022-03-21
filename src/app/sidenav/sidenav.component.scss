@@ -1,0 +1,34 @@
+.logo{
+    text-align: justify;
+    background-color: black;
+    padding: 1px;
+    padding-right: 1px;
+img{
+    width: 258px;
+    height: 100px;
+    }
+}
+.mat-icon{
+    vertical-align: center;
+    margin-right: 1rem;
+}
+.mat-divider{
+    border-top-width:  2px;
+    border-color: white;
+}
+.mat-list-item{
+    font-size: 1.3rem;
+    height: 44px !important;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    &:hover{
+        background: white !important;
+    }
+}
+.list-item-active{
+    color:black;
+    background-color: aliceblue;
+    &:hover{
+        background: white !important;
+    }
+    }

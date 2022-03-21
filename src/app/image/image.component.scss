@@ -1,0 +1,50 @@
+.page{
+    color: white;
+    padding: 0 1rem;
+    background: white;
+    &_box {
+        min-height: 70px;
+        background: black;
+        margin: 0 -1rem;
+        font-size: 45px;
+        text-align: center;
+    }
+    &_content{
+        min-height: calc(100vh - 160px);
+        border-radius: 10px;
+        margin-top: -2rem;
+        background: white;
+        color: black;
+        font-size: 25px;
+    }
+.img{
+    background-size: cover;
+}
+
+}
+
+
+.img-container{
+    margin: 24px;
+    //box-shadow: #555 1px 2px 8px 1px;
+    min-height: 450px;
+    width: 900px;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    align-content: center;
+}
+#caption{
+    font-size: 1.5rem;
+    font-family: 'open Sans', sans-serif;
+    padding: 18px;
+    color: #222;
+    border: 1px solid #bbb;
+    width: 900px;
+    
+    
+}
+.caption-row{
+    padding: 40px;
+    text-align: center;
+}
